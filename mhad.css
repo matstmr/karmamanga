@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script&display=swap');
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #162563;
+}
+
+body.is-ready {
+    animation: fade-right 1s ease-out forwards;
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(200%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 30px;
+    color: #0000003e;
+}
+
+.MHA {
+    background: url(mha-fond-removebg-preview.png) no-repeat;
+    background-size: 30%;
+    background-position: 1% 25%;
+    padding: 1px 0px 100px 0px;
+}
+
+.MHA h2 {
+    text-decoration: none;
+    color: white;
+}
+
+.MHA p {
+    float: right;
+    text-align: center;
+    width: 62%;
+    color: white;
+    padding: 0 1%;
+}
+
+.MHA h4 {
+    text-decoration: none;
+    color: white;
+}
+
+
+.MHA h5 {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#personnagesMHA {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    float: right;
+    width: 55%;
+    padding: 10px 2%;
+    text-align: center;
+}
+
+#MHAsites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 55%;
+    float: right;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#arcMHA {
+    width: 55%;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#arcMHA li {
+    padding: 2px;
+}
+
+#arcMHA a {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#MHAsites .sites img {
+    border-radius: 10px;
+    box-shadow: 4px 1px 6px 7px rgba(0, 0, 0, 0.69);
+    margin: 10px;
+}
+
+
+@media screen and (max-width : 720px) {
+    .MHA {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .MHA {
+        background-position: 1% 100%;
+    }
+}
+
+@media screen and (max-width : 430px) {
+    #MHAsites {
+       width: 100%;
+    }
+}
+

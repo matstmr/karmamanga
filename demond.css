@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script&display=swap');
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #a2a374;
+}
+
+body.is-ready {
+    animation: fade-right 1s ease-out forwards;
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 30px;
+    color: #0000003e;
+}
+
+.DemonSlayer {
+    background: url(demon-fond-removebg-preview.png) no-repeat;
+    background-size: 30%;
+    background-position: 95% 25%;
+    background-color: #a2a374;
+    padding: 1px 0px 200px 0px;
+
+}
+
+.DemonSlayer p {
+    text-align: center;
+    width: 62%;
+    color: black;
+}
+
+#DemonSlayersites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 55%;
+    text-align: center;
+}
+
+#DemonSlayersites .sites img {
+    border-radius: 10px;
+    box-shadow: 4px 1px 6px 7px rgba(0, 0, 0, 0.69);
+    margin: 10px;
+}
+
+#personnagesdemon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60%;
+    padding: 0px 15px 50px 15px;
+    text-align: center;
+}
+
+#arcdemon {
+    width: 60%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#arcdemon li {
+    padding: 2px;
+}
+
+#arcdemon a {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@media screen and (max-width : 720px) {
+    .DemonSlayer {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width : 430px) {
+    #DemonSlayersites  {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .DemonSlayer {
+        font-size: 0.6em;
+    }
+}

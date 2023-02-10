@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script&display=swap');
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #b2aad1;
+    opacity: 1;
+    transform: translateX(-200px);
+}
+
+body.is-ready {
+    animation: fade-left 1s ease-out forwards;
+}
+
+@keyframes fade-left {
+    0% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 30px;
+    color: #0000003e;
+}
+
+.Naruto {
+    background: url(naruto-fond.png) no-repeat;
+    background-size: 12%;
+    padding: 1px 0px 100px 0px;
+    background-position: 95% 25%;
+    background-color: #b2aad1;
+}
+
+.Naruto p {
+    float: left;
+    width: 60%;
+    text-align: center;
+    padding: 0px 2px 0px 5px;
+}
+
+#narutosites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60%;
+    text-align: center;
+}
+
+#narutosites .sites {
+    padding: 30px;
+}
+
+#narutosites h4 {
+    text-align: center;
+}
+
+#personnagesnaruto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60%;
+    padding: 0px 0px 50px 0px;
+    text-align: center;
+}
+
+#personnagesnaruto .portraits img {
+    border-radius: 10px;
+}
+
+#narutosites .sites img {
+    border-radius: 10px;
+    box-shadow: 4px 1px 6px 7px rgba(0, 0, 0, 0.69);
+    margin: 10px;
+}
+
+#arcnaruto {
+    width: 60%;
+    text-align: center;
+}
+
+#arcnaruto li {
+    padding: 2px;
+}
+
+#arcnaruto a {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@media screen and (max-width : 980px) {
+    .Naruto {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width : 720px) {
+    .Naruto {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width : 430px) {
+    #narutosites {
+       width: 100%;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .Naruto {
+        font-size: 0.6em;
+    }
+}

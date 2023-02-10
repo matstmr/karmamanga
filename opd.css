@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script&display=swap');
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #cea4a4;
+}
+
+body.is-ready {
+    animation: fade-right 1s ease-out forwards;
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(200%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 30px;
+    color: #0000003e;
+}
+
+.OnePiece {
+    background: url(op-fond.png) no-repeat;
+    background-size: 30%;
+    background-color: #cea4a4;
+    background-position: 1% 25%;
+    height: 1400px;
+    padding: 1px 0px 100px 0px;
+}
+
+.OnePiece h2 {
+    text-decoration: none;
+    color: white;
+}
+
+.OnePiece p {
+    float: right;
+    text-align: justify;
+    width: 70%;
+    color: white;
+    padding: 0px 15px 0px 0px;
+}
+
+
+.OnePiece h4 {
+    text-decoration: none;
+    color: white;
+}
+
+.OnePiece h5 {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+
+#personnagesOP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 40px;
+    float: right;
+    width: 60%;
+    text-align: center;
+}
+
+#arcOP {
+    width: 55%;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#arcOP li {
+    padding: 2px;
+}
+
+#arcOP a {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+#onepiecesites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 55%;
+    float: right;
+    text-align: center;
+}
+
+#personnagesOP .portraits img {
+    border-radius: 10px;
+}
+
+#onepiecesites .sites img {
+    border-radius: 10px;
+    box-shadow: 4px 1px 6px 7px rgba(0, 0, 0, 0.69);
+    margin: 10px;
+}
+
+@media screen and (max-width : 720px) {
+    .OnePiece {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width : 430px) {
+    #onepiecesites {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .OnePiece {
+        font-size: 0.6em;
+    }
+}

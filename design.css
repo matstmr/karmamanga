@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(144, 193, 210);
+    background: linear-gradient(90deg, rgba(144, 193, 210, 0.4713235636051295) 6%, rgba(110, 170, 199, 0.8018557764902836) 100%);
+    background-size: cover;
+
+}
+
+/* ANIMATION NARUTO CLICK */
+body.couleur-Naruto {
+    animation: couleur-Naruto 1s ease-out;
+}
+
+section.fade {
+    animation: fade 1s ease-out;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes couleur-Naruto {
+    0% {
+        background: rgb(144, 193, 210);
+        background: linear-gradient(90deg, rgba(144, 193, 210, 0.4713235636051295) 6%, rgba(110, 170, 199, 0.8018557764902836) 100%);
+    }
+
+    100% {
+        background: #b2aad1;
+    }
+}
+
+/* ANIMATION ONE PIECE CLICK */
+body.couleur-OnePiece {
+    animation: couleur-OnePiece 1s ease-out forwards;
+}
+
+section.fade {
+    animation: fade 1s ease-out forwards;
+}
+
+@keyframes couleur-OnePiece {
+    0% {
+        background: rgb(144, 193, 210);
+        background: linear-gradient(90deg, rgba(144, 193, 210, 0.4713235636051295) 6%, rgba(110, 170, 199, 0.8018557764902836) 100%);
+    }
+
+    100% {
+        background: #cea4a4;
+    }
+}
+
+/* ANIMATION SNK CLICK */
+body.couleur-Snk {
+    animation: couleur-Snk 1s ease-out forwards;
+}
+
+section.fade {
+    animation: fade 1s ease-out forwards;
+}
+
+@keyframes couleur-Snk {
+    0% {
+        background: rgb(144, 193, 210);
+        background: linear-gradient(90deg, rgba(144, 193, 210, 0.4713235636051295) 6%, rgba(110, 170, 199, 0.8018557764902836) 100%);
+    }
+
+    100% {
+        background: #c2c1c1;
+    }
+}
+
+/* ANIMATION MHA CLICK */
+body.couleur-MHA {
+    animation: couleur-MHA 1s ease-out forwards;
+}
+
+section.fade {
+    animation: fade 1s ease-out forwards;
+}
+
+@keyframes couleur-MHA {
+    0% {
+        background: rgb(144, 193, 210);
+        background: linear-gradient(90deg, rgba(144, 193, 210, 0.4713235636051295) 6%, rgba(110, 170, 199, 0.8018557764902836) 100%);
+    }
+
+    100% {
+        background: #162563;
+    }
+}
+
+/* ANIMATION DEMON SLAYER CLICK */
+body.couleur-DemonSlayer {
+    animation: couleur-DemonSlayer 1s ease-out forwards;
+}
+
+section.fade {
+    animation: fade 1s ease-out forwards;
+}
+
+@keyframes couleur-DemonSlayer {
+    0% {
+        background: rgb(144, 193, 210);
+        background: linear-gradient(90deg, rgba(144, 193, 210, 0.4713235636051295) 6%, rgba(110, 170, 199, 0.8018557764902836) 100%);
+    }
+
+    100% {
+        background: #a2a374;
+    }
+}
+
+/* ANIMATION HXH CLICK */
+body.couleur-HXH {
+    animation: couleur-HXH 1s ease-out forwards;
+}
+
+section.fade {
+    animation: fade 1s ease-out forwards;
+}
+
+@keyframes couleur-HXH {
+    0% {
+        background: rgb(144, 193, 210);
+        background: linear-gradient(90deg, rgba(144, 193, 210, 0.4713235636051295) 6%, rgba(110, 170, 199, 0.8018557764902836) 100%);
+    }
+
+    100% {
+        background: #6eadff;
+    }
+}
+
+/* ANIMATION DRAGON BALL CLICK */
+body.couleur-DragonBall {
+    animation: couleur-DragonBall 1s ease-out forwards;
+}
+
+section.fade {
+    animation: fade 1s ease-out forwards;
+}
+
+@keyframes couleur-DragonBall {
+    0% {
+        background: rgb(144, 193, 210);
+        background: linear-gradient(90deg, rgba(144, 193, 210, 0.4713235636051295) 6%, rgba(110, 170, 199, 0.8018557764902836) 100%);
+    }
+
+    100% {
+        background: #d1a71e;
+    }
+}
+
+/* ANIMATION DR.STONE CLICK */
+body.couleur-DrStone {
+    animation: couleur-DrStone 1s ease-out forwards;
+}
+
+section.fade {
+    animation: fade 1s ease-out forwards;
+}
+
+@keyframes couleur-DrStone {
+    0% {
+        background: rgb(144, 193, 210);
+        background: linear-gradient(90deg, rgba(144, 193, 210, 0.4713235636051295) 6%, rgba(110, 170, 199, 0.8018557764902836) 100%);
+    }
+
+    100% {
+        background: #AC9273;
+    }
+}
+
+/* ANIMATION BLACK CLOVER CLICK */
+body.couleur-BlackClover {
+    animation: couleur-BlackClover 1s ease-out forwards;
+}
+
+section.fade {
+    animation: fade 1s ease-out forwards;
+}
+
+@keyframes couleur-BlackClover {
+    0% {
+        background: rgb(144, 193, 210);
+        background: linear-gradient(90deg, rgba(144, 193, 210, 0.4713235636051295) 6%, rgba(110, 170, 199, 0.8018557764902836) 100%);
+    }
+
+    100% {
+        background: #837ab9;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.drapeaux {
+    display: flex;
+    justify-content: end;
+}
+
+.drapeaux a {
+    padding: 1px;
+}
+
+.drapeaux img {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1100px;
+    padding: 50px;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 8px;
+}
+
+h2 {
+    padding: 5px 0 0 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8em;
+
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 1100px;
+}
+
+
+.card {
+    background: #1e1e26;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 420px;
+    position: relative;
+    z-index: 100;
+}
+
+.image .model {
+    height: 250px;
+}
+
+.details {
+    width: 300px;
+}
+
+.details p {
+    font-family: calibri;
+    font-weight: bold;
+    color: #6a6a74;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titre .manga {
+    color: #4c4c5a;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: bebas kai;
+    font-size: 25px;
+
+}
+
+
+.card:hover {
+    background-color: #111115;
+    transform-style: preserve-3d;
+    transform: scale(1.01);
+    transition: all ease 0.3s;
+}
+
+.card:hover .titre .manga {
+    color: #c0292b;
+    transition: all ease 0.5s;
+}
+
+.card:hover .details p {
+    color: #c0292b;
+    transition: all ease 0.5s;
+}
+
+/*--responsive for mobile phone--*/
+@media(max-width:1200px) {
+
+    header {
+        width: 800px;
+    }
+
+    .swiper {
+        width: 800px;
+    }
+
+    .details {
+        display: none;
+    }
+
+}
+
+@media(max-width:900px) {
+
+    header {
+        width: 600px;
+    }
+
+    .swiper {
+        width: 600px;
+    }
+
+    .details {
+        display: none;
+    }
+
+}
+
+
+@media(max-width:720px) {
+
+    header {
+        width: 500px;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .swiper {
+        width: 500px;
+    }
+
+    .details {
+        display: none;
+    }
+
+
+}
+
+
+@media(max-width:584px) {
+
+    header {
+        width: 350px;
+    }
+
+    .swiper {
+        width: 400px;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .image .model {
+        height: 150px;
+    }
+
+    .card .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .titre .manga {
+        font-size: 15px;
+    }
+
+    .details {
+        display: none;
+    }
+
+}
+
+@media(max-width:500px) {
+
+    header {
+        width: 350px;
+    }
+
+
+    .swiper {
+        width: 350px;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .card .card-content {
+        height: 300px;
+    }
+
+    .titre .manga {
+        font-size: 15px;
+    }
+
+    .details {
+        display: none;
+    }
+
+}
+
+@media(max-width:450px) {
+
+    header {
+        width: 300px;
+    }
+
+    .swiper {
+        width: 300px;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .card .card-content {
+        height: 250px;
+    }
+
+    .image .model {
+        height: 100px;
+    }
+
+    .titre .manga {
+        font-size: 15px;
+    }
+
+    .details {
+        display: none;
+    }
+
+}
+
+@media(max-width:400px) {
+    header {
+        font-size: 1.2em;
+        width: 250px;
+    }
+
+    .swiper {
+        width: 250px;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+
+    .card .card-content {
+        height: 200px;
+    }
+
+    .image .model {
+        height: 100px;
+    }
+
+    .titre .manga {
+        font-size: 10px;
+    }
+
+    .details {
+        display: none;
+    }
+
+}
+
+@media(max-width : 385px) {
+    header {
+        font-size: 0.8em;
+        padding-right: 10px;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+}
+
+@media(max-width:350px) {
+
+    header {
+        width: 200px;
+    }
+
+    .swiper {
+        width: 200px;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+
+    .card .card-content {
+        height: 150px;
+    }
+
+    .image .model {
+        height: 50px;
+    }
+
+    .titre .manga {
+        font-size: 8px;
+    }
+
+    .details {
+        display: none;
+    }
+
+}
